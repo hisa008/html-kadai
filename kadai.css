@@ -55,3 +55,20 @@
 .title{
   padding:7px;
 }
+
+@media screen and (max-width:768px){
+  .main{
+    width:90%;
+  }
+  .box{
+    width:100%;
+    margin:20px auto;
+    float:none;
+  }
+  .box:last-child{
+    margin-right:auto;
+  }
+  .img1 , .img2 , .img3{
+    width:100%;
+  }
+}
